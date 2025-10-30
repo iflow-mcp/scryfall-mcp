@@ -1,8 +1,11 @@
 {
-  "name": "scryfall-mcp",
+  "name": "@iflow-mcp/scryfall-mcp",
   "version": "1.0.0",
   "description": "MCP Server for Scryfall",
   "main": "index.js",
+  "bin": {
+    "scryfall-mcp": "dist/index.js"
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc && npm run test",
