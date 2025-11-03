@@ -1,6 +1,6 @@
 {
   "name": "@iflow-mcp/scryfall-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MCP Server for Scryfall",
   "main": "index.js",
   "bin": {
